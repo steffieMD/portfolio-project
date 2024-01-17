@@ -2,14 +2,13 @@
   --playfair-font: "Playfair Display", serif;
   --poppins-font: "Poppins", sans-serif;
   --blueviolet: #6c63ff;
+  --paragraph-color: rgba(39, 33, 66, 0.7);
 }
 
-body {
+.hero-container {
   background-color: #f9f7fe !important;
-}
-
-.margin-top {
-  margin-top: 200px;
+  padding-top: 230px;
+  padding-bottom: 230px;
 }
 
 .play-fair {
@@ -20,12 +19,8 @@ body {
   font-family: var(--poppins-font);
 }
 
-.fw-bold {
-  font-weight: 700;
-}
-
 .hero-btn {
-  background-color: #6c63ff !important;
+  background-color: var(--blueviolet) !important;
   border-radius: 4px !important;
   padding: 18px 30px 18px 30px;
 }
@@ -36,4 +31,22 @@ body {
 
 .shadow-md {
   box-shadow: 0px 5px 5px grey;
+}
+
+.text-color {
+  color: #272142 !important;
+}
+
+.paragraph-color {
+  color: var(--paragraph-color);
+}
+
+.btn-light {
+  color: var(--blueviolet) !important;
+  border: 1px solid var(--blueviolet) !important;
+}
+
+.btn-light:hover {
+  background-color: var(--blueviolet) !important;
+  color: #fff !important;
 }
