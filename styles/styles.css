@@ -1,0 +1,35 @@
+:root {
+  --playfair-font: "Playfair Display", serif;
+  --poppins-font: "Poppins", sans-serif;
+  --blueviolet: #6c63ff;
+}
+
+body {
+  background-color: #f9f7fe !important;
+}
+
+.margin-top {
+  margin-top: 200px;
+}
+
+.play-fair {
+  font-family: var(--playfair-font);
+}
+
+.poppins {
+  font-family: var(--poppins-font);
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.hero-btn {
+  background-color: #6c63ff !important;
+  border-radius: 4px !important;
+  padding: 18px 30px 18px 30px;
+}
+
+.active {
+  color: var(--blueviolet) !important;
+}
