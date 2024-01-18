@@ -8,6 +8,10 @@
 .padding-top {
   padding-top: 130px;
 }
+.padding-bottom {
+  padding-bottom: 130px;
+}
+
 .hero-container {
   background-color: #f9f7fe !important;
   padding-top: 230px;
