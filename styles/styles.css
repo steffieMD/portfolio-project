@@ -5,6 +5,10 @@
   --paragraph-color: rgba(39, 33, 66, 0.7);
 }
 
+nav a:hover {
+  color: var(--blueviolet) !important;
+}
+
 .padding-top {
   padding-top: 130px;
 }
