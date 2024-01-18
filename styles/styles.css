@@ -80,3 +80,7 @@ i {
 .text-fs-small {
   font-size: 14px;
 }
+
+.monospace {
+  font-family: monospace;
+}
