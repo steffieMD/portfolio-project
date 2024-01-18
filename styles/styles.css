@@ -5,6 +5,9 @@
   --paragraph-color: rgba(39, 33, 66, 0.7);
 }
 
+.padding-top {
+  padding-top: 130px;
+}
 .hero-container {
   background-color: #f9f7fe !important;
   padding-top: 230px;
@@ -17,12 +20,6 @@
 
 .poppins {
   font-family: var(--poppins-font);
-}
-
-.hero-btn {
-  background-color: var(--blueviolet) !important;
-  border-radius: 4px !important;
-  padding: 18px 30px 18px 30px;
 }
 
 .active {
