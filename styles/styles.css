@@ -68,3 +68,7 @@
 .fa-brands {
   color: var(--blueviolet);
 }
+
+.text-fs-small {
+  font-size: 14px;
+}
