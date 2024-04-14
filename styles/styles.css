@@ -85,4 +85,10 @@ i {
   font-family: monospace;
 }
 
+.contact i:hover{
+  color: #39348a;
+}
 
+.logo:hover{
+  color: #39348a;;
+}
